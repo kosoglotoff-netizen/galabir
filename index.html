@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galabir — читабельний глаголичний шрифт</title>
+  <meta name="description" content="Galabir — безкоштовний глаголичний шрифт для українського тексту. SIL OFL 1.1.">
+  <link rel="stylesheet" href="css/galabir.css">
+  <style>
+    :root { --bg: #333; --fg: #f1ebe0; --muted: #b9b2a6; --accent: #fb62cc; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; overflow-x: hidden; }
+    .dot { position: fixed; border-radius: 50%; background: var(--accent); z-index: 0; pointer-events: none; }
+    main { position: relative; z-index: 1; max-width: 960px; margin: 0 auto; padding: 64px 16px 96px; }
+    .glag { font-family: "Galabir", sans-serif; font-weight: 300; }
+    h1 { font-size: clamp(56px, 14vw, 140px); line-height: 1.1; margin: 0 0 8px; text-align: center; }
+    .lead { text-align: center; color: var(--muted); margin: 0 0 40px; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-bottom: 64px; }
+    .btn { display: inline-block; padding: 12px 22px; border-radius: 999px; text-decoration: none; font-weight: 600; border: 2px solid var(--fg); color: var(--fg); }
+    .btn.primary { background: var(--accent); border-color: var(--accent); color: #222; }
+    section { margin-bottom: 64px; }
+    h2 { font-size: 14px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 600; margin: 0 0 16px; }
+    textarea { width: 100%; min-height: 140px; background: transparent; color: var(--fg); border: 1px solid #555; border-radius: 12px; padding: 16px; font-size: clamp(28px, 6vw, 48px); line-height: 1.4; resize: vertical; }
+    input[type=range] { width: 100%; accent-color: var(--accent); margin-top: 12px; }
+    .alphabet { font-size: clamp(28px, 6vw, 44px); line-height: 1.5; word-break: break-all; }
+    .points { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; }
+    .points p { margin: 0; color: var(--muted); }
+    .points b { color: var(--fg); display: block; margin-bottom: 4px; }
+    pre { background: #262626; border-radius: 12px; padding: 16px; overflow-x: auto; font-size: 14px; }
+    footer { color: var(--muted); font-size: 14px; text-align: center; }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <div class="dot" style="width:160px;height:160px;top:-60px;left:38%"></div>
+  <div class="dot" style="width:170px;height:170px;top:120px;right:-60px"></div>
+  <div class="dot" style="width:140px;height:140px;bottom:-40px;left:-50px"></div>
+
+  <main>
+    <h1 class="glag">Галабир</h1>
+    <p class="lead">Galabir — читабельний глаголичний шрифт для української мови</p>
+
+    <div class="actions">
+      <a class="btn primary" href="https://github.com/kosoglotoff-netizen/galabir/releases/latest">Завантажити</a>
+      <a class="btn" href="https://github.com/kosoglotoff-netizen/galabir">GitHub</a>
+      <a class="btn" href="https://www.behance.net/gallery/244865775/Galabir">Behance</a>
+    </div>
+
+    <section>
+      <h2>Спробуйте — пишіть кирилицею</h2>
+      <textarea class="glag" id="tester" spellcheck="false">Слава Україні! Героям слава!</textarea>
+      <input type="range" id="size" min="20" max="120" value="48" aria-label="Розмір">
+    </section>
+
+    <section>
+      <h2>Алфавіт</h2>
+      <div class="glag alphabet">АБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯ</div>
+      <div class="glag alphabet">абвгґдеєжзиіїйклмнопрстуфхцчшщьюя</div>
+    </section>
+
+    <section class="points">
+      <p><b>Великі літери</b>з кутастої глаголиці</p>
+      <p><b>Малі літери</b>з круглої глаголиці</p>
+      <p><b>Виносні елементи</b>з глаголичного скоропису</p>
+      <p><b>Основа</b>League Spartan, Light 300</p>
+    </section>
+
+    <section>
+      <h2>На сайті</h2>
+      <pre>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kosoglotoff-netizen/galabir@latest/css/galabir.css"&gt;
+
+.glagolitic { font-family: "Galabir", sans-serif; }</pre>
+    </section>
+
+    <footer>
+      © 2025 Павло Салига і Дарія Нагладзе · <a href="OFL.txt">SIL Open Font License 1.1</a>
+    </footer>
+  </main>
+
+  <script>
+    const t = document.getElementById('tester');
+    document.getElementById('size').addEventListener('input', e => t.style.fontSize = e.target.value + 'px');
+  </script>
+</body>
+</html>

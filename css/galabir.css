@@ -1,0 +1,13 @@
+/*
+ * Galabir — readable Glagolitic typeface
+ * https://github.com/kosoglotoff-netizen/galabir
+ * SIL Open Font License 1.1
+ */
+@font-face {
+  font-family: "Galabir";
+  src: url("../fonts/Galabir-Light.woff2") format("woff2"),
+       url("../fonts/Galabir-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
