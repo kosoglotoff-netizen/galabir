@@ -1,0 +1,58 @@
+FONTLOG for Galabir
+===================
+
+This file provides detailed information on the Galabir font software.
+This information should be distributed along with the Galabir fonts
+and any derivative works.
+
+
+Basic Font Information
+----------------------
+
+Galabir is a readable Glagolitic typeface for Ukrainian and other
+Cyrillic Slavic languages (Bulgarian, Serbian, Belarusian, Macedonian,
+Montenegrin).
+
+Modern Glagolitic fonts are hard to read in running text: most have no
+ascenders or descenders, no distinction between uppercase and lowercase,
+and many letters look too similar. Galabir follows the Latin-script model,
+where the two cases come from different writing styles:
+
+- uppercase is based on Angular (Croatian) Glagolitic;
+- lowercase is based on Round (Bulgarian) Glagolitic;
+- ascenders, descenders and tails are borrowed from Glagolitic cursive.
+
+Glagolitic shapes are mapped to Cyrillic code points, so the font is typed
+with an ordinary Cyrillic keyboard. Latin letters, digits and punctuation
+are inherited from League Spartan.
+
+Style: Light (300). Formats: TTF, WOFF2.
+
+Project page: https://github.com/kosoglotoff-netizen/galabir
+Specimen:     https://kosoglotoff-netizen.github.io/galabir/
+Presentation: https://www.behance.net/gallery/244865775/Galabir
+
+
+ChangeLog
+---------
+
+2026-11-01 (Pavlo Salyha) Galabir Version 4.0
+- First public release under the SIL Open Font License 1.1.
+
+2025 (Pavlo Salyha, Daria Nagladze)
+- Glagolitic glyphs designed on top of League Spartan.
+
+
+Acknowledgements
+----------------
+
+N: Pavlo Salyha
+D: Glagolitic design
+
+N: Daria Nagladze
+D: Glagolitic design
+W: https://www.behance.net/gallery/244865775/Galabir
+
+N: The League Spartan Project Authors
+D: Original League Spartan typeface (Latin, Cyrillic base)
+W: https://github.com/theleagueof/league-spartan
