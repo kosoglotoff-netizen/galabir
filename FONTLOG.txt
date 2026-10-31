@@ -23,7 +23,8 @@ where the two cases come from different writing styles:
 - ascenders, descenders and tails are borrowed from Glagolitic cursive.
 
 Glagolitic shapes are mapped to Cyrillic code points, so the font is typed
-with an ordinary Cyrillic keyboard. Latin letters, digits and punctuation
+with an ordinary Cyrillic keyboard. They are also mapped to the Unicode
+Glagolitic block (U+2C00-U+2C5F). Latin letters, digits and punctuation
 are inherited from League Spartan.
 
 Style: Light (300). Formats: TTF, WOFF2.
@@ -35,6 +36,10 @@ Presentation: https://www.behance.net/gallery/244865775/Galabir
 
 ChangeLog
 ---------
+
+2026-11-01 (Pavlo Salyha) Galabir Version 4.1
+- Added Unicode Glagolitic code points (U+2C00-U+2C5F, 84 of 96),
+  mapped to the same glyphs as the Cyrillic letters.
 
 2026-11-01 (Pavlo Salyha) Galabir Version 4.0
 - First public release under the SIL Open Font License 1.1.

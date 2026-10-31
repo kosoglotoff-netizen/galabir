@@ -39,11 +39,15 @@
 Нічого перемикати не треба: «Слава Україні» у Galabir одразу виглядає глаголичним написом.
 Латинські літери, цифри й розділові знаки залишаються з League Spartan.
 
+Шрифт також підтримує **Unicode-глаголицю** (блок `U+2C00–U+2C5F`): уже набраний глаголичний текст,
+наприклад з Вікіпедії чи оцифрованих пам'яток, теж відображається в Galabir. Покрито 84 коди з 96.
+
 | | |
 |---|---|
 | Накреслення | Light (300) |
-| Версія | 4.0 |
+| Версія | 4.1 |
 | Формати | TTF (для встановлення), WOFF2 (для вебу) |
+| Писемності | кирилиця → глаголиця, Unicode-глаголиця, латиниця |
 
 ### Завантажити та встановити
 
@@ -119,7 +123,10 @@ Belarusian, Macedonian and Montenegrin.
 Type ordinary **Cyrillic** text and Galabir renders it in **Glagolitic** — no special keyboard needed.
 Latin letters, digits and punctuation come from League Spartan.
 
-Style: Light (300) · Version 4.0 · Formats: TTF (desktop), WOFF2 (web)
+Galabir also supports **Unicode Glagolitic** (`U+2C00–U+2C5F`, 84 of 96 code points), so existing
+Glagolitic text displays in Galabir too.
+
+Style: Light (300) · Version 4.1 · Formats: TTF (desktop), WOFF2 (web)
 
 ### Download & install
 
@@ -156,13 +163,13 @@ and derivative fonts must also be released under the OFL.
 
 ![Galabir — карта символів](images/charset.png)
 
-У Galabir глаголичні форми прив'язані до **кириличних** кодів Unicode, тому набирати можна звичайною
-українською розкладкою. У таблиці для кожної кириличної літери вказано її **глаголичний відповідник у Unicode**
-(блок Glagolitic, `U+2C00–U+2C5F`). Ці коди знадобляться, щоб перетворити текст на «справжню» Unicode-глаголицю,
-яку розпізнають пошук і програми читання з екрана.
+Кожна глаголична форма в Galabir доступна за двома кодами: **кириличним** (щоб набирати звичайною
+українською розкладкою) і **глаголичним** з блоку Unicode Glagolitic (`U+2C00–U+2C5F`). Обидва коди
+з одного рядка таблиці дають у Galabir однакову літеру. Unicode-глаголицю розпізнають пошук і програми
+читання з екрана.
 
-*Galabir maps Glagolitic shapes onto **Cyrillic** code points. The table pairs each Cyrillic letter with its
-Glagolitic Unicode counterpart (block `U+2C00–U+2C5F`); lowercase = uppercase + `0x30` in both scripts.*
+*Each Glagolitic shape in Galabir is reachable from both a **Cyrillic** code point and its **Unicode Glagolitic**
+counterpart (`U+2C00–U+2C5F`); both codes in a row render the same glyph. Lowercase = uppercase + `0x30` in both scripts.*
 
 ### Українська абетка · Ukrainian alphabet
 
@@ -247,7 +254,7 @@ Glagolitic Unicode counterpart (block `U+2C00–U+2C5F`); lowercase = uppercase 
 | Ⱞ ⱞ | `U+2C2E · U+2C5E` | Латинізоване мисліте (Latinate Myslite) |
 | Ⱟ ⱟ | `U+2C2F · U+2C5F` | Черв хвостатий (Caudate Chrivi) |
 
-Ці знаки у Galabir не намальовані. · *These letters are not drawn in Galabir.*
+Ці 6 літер (12 кодів) у Galabir поки не намальовані. · *These 6 letters (12 code points) are not drawn in Galabir yet.*
 
 ---
 
