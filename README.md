@@ -33,6 +33,22 @@
 ![Алфавіт](images/alphabet-1.png)
 ![Алфавіт](images/alphabet-2.png)
 
+### Чому саме так
+
+Galabir виник під час академічного вивчення глаголиці в Київському національному університеті
+культури і мистецтв і спершу був практичною підтримкою навчального процесу.
+
+- **Читабельність.** У поширених глаголичних шрифтах, зокрема в Noto Sans Glagolitic, великі й малі
+  літери майже не відрізняються. Тому ми взяли підхід латинки й вивели великі та малі літери з різних
+  історичних стилів письма.
+- **Кирилиця як вхід — свідомий вибір.** Глаголичні форми прив'язано до кириличних кодів, щоб шрифт
+  можна було застосувати до вже наявного цифрового тексту рідною мовою без спеціальної розкладки
+  клавіатури чи підтримки блоку Юнікоду. Так ми хотіли подолати брак доступних матеріалів для читання
+  глаголицею. Для сумісності з наявними глаголичними текстами шрифт також підтримує блок
+  Unicode Glagolitic.
+
+![Galabir і Noto Sans Glagolitic](images/Galabir-vs-Noto.svg)
+
 ### Як це працює
 
 Набирайте звичайним **кириличним** текстом, і шрифт покаже його **глаголицею**.
@@ -118,6 +134,20 @@ The result is a Glagolitic typeface that is much more readable and accessible.
 Galabir is built on the open-source [League Spartan](https://github.com/theleagueof/league-spartan)
 and designed for Ukrainian. It also suits other Cyrillic Slavic languages: Bulgarian, Serbian,
 Belarusian, Macedonian and Montenegrin.
+
+### Why this approach
+
+Galabir grew out of our academic study of the Glagolitic alphabet at the Kyiv National University of
+Culture and Arts, where it started as practical support for teaching.
+
+- **Legibility.** Common Glagolitic fonts, such as Noto Sans Glagolitic, show little difference between
+  uppercase and lowercase. We adopted the Latin-alphabet approach and derived the two cases from
+  different historical styles.
+- **Cyrillic input is deliberate.** The Glagolitic shapes sit on Cyrillic code points so the font can be
+  applied to existing digital text in one's native language without a special keyboard layout or
+  Unicode Glagolitic support — a practical tool for learners, given how little accessible Glagolitic
+  reading material exists. For compatibility with existing Glagolitic text, the Unicode Glagolitic
+  block is supported as well.
 
 ### How it works
 
