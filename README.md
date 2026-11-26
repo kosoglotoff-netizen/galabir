@@ -5,7 +5,7 @@
 **Galabir** — читабельний глаголичний шрифт для українського тексту.
 **Galabir** is a readable Glagolitic typeface for Ukrainian and other Cyrillic Slavic languages.
 
-[🇺🇦 Українська](#українська) · [🇬🇧 English](#english) · [Таблиця символів](#таблиця-символів--character-map) · [Specimen](https://kosoglotoff-netizen.github.io/galabir/) · [Behance](https://www.behance.net/gallery/244865775/Galabir)
+[🇺🇦 Українська](#українська) · [🇬🇧 English](#english) · [Таблиця символів](#таблиця-символів--character-map) · [Specimen](https://kosoglotoff-netizen.github.io/galabir/) · [Behance](https://www.behance.net/gallery/244865775/Galabir) · [Font Library](https://fontlibrary.org/font/galabir/)
 
 ---
 
@@ -45,13 +45,14 @@
 | | |
 |---|---|
 | Накреслення | Light (300) |
-| Версія | 4.1 |
+| Версія | 4.2 |
 | Формати | TTF (для встановлення), WOFF2 (для вебу) |
 | Писемності | кирилиця → глаголиця, Unicode-глаголиця, латиниця |
 
 ### Завантажити та встановити
 
 1. Відкрийте сторінку [**Releases**](https://github.com/kosoglotoff-netizen/galabir/releases/latest) і завантажте `Galabir.zip`.
+   Шрифт також є в каталозі [**Font Library**](https://fontlibrary.org/font/galabir/).
 2. Розпакуйте архів.
 3. Встановіть шрифт:
    - **macOS** — двічі клацніть файл `.ttf` → «Встановити шрифт»;
@@ -126,11 +127,12 @@ Latin letters, digits and punctuation come from League Spartan.
 Galabir also supports **Unicode Glagolitic** (`U+2C00–U+2C5F`, 84 of 96 code points), so existing
 Glagolitic text displays in Galabir too.
 
-Style: Light (300) · Version 4.1 · Formats: TTF (desktop), WOFF2 (web)
+Style: Light (300) · Version 4.2 · Formats: TTF (desktop), WOFF2 (web)
 
 ### Download & install
 
 1. Go to [**Releases**](https://github.com/kosoglotoff-netizen/galabir/releases/latest) and download `Galabir.zip`.
+   Galabir is also listed on [**Font Library**](https://fontlibrary.org/font/galabir/).
 2. Unzip it.
 3. Install the `.ttf` file:
    - **macOS** — double-click → *Install Font*;

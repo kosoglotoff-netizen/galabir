@@ -32,10 +32,16 @@ Style: Light (300). Formats: TTF, WOFF2.
 Project page: https://github.com/kosoglotoff-netizen/galabir
 Specimen:     https://kosoglotoff-netizen.github.io/galabir/
 Presentation: https://www.behance.net/gallery/244865775/Galabir
+Font Library: https://fontlibrary.org/font/galabir/
 
 
 ChangeLog
 ---------
+
+2026-11-26 (Pavlo Salyha) Galabir Version 4.2
+- Font metadata: designers, manufacturer and URLs now credit
+  Pavlo Salyha & Daria Nagladze; League Spartan kept in the copyright.
+- Full name fixed to "Galabir Light".
 
 2026-11-01 (Pavlo Salyha) Galabir Version 4.1
 - Added Unicode Glagolitic code points (U+2C00-U+2C5F, 84 of 96),
